@@ -3,7 +3,7 @@ from ultralytics import YOLO
 from ultralytics.solutions import queue_management
 
 model = YOLO("yolov8n.pt")
-cap = cv2.VideoCapture("Movie.mov")
+cap = cv2.VideoCapture("Sequence.mp4")
 
 assert cap.isOpened(), "Error reading video file"
 w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH,
