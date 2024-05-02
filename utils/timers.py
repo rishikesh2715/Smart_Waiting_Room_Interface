@@ -18,7 +18,7 @@ class FPSBasedTimer:
             at which it was first detected.
     """
 
-    def __init__(self, fps: int = 30) -> None:
+    def __init__(self, fps: int = 60) -> None:
         """Initializes the FPSBasedTimer with the specified frames per second rate.
 
         Args:
